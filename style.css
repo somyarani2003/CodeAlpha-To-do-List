@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(159, 159, 192);
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgb(108, 108, 145);
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border: 2px solid blue;
+    outline: none;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    background-color: rgb(80, 80, 107);
+}
+
+.inputs ul {
+    position: relative;
+    color: black;
+    font-size: 20px;
+    padding: 7px;
+    text-align: left;
+    margin-left: 15px;
+}
+
+.inputs ul i {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
